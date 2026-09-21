@@ -101,6 +101,6 @@ document.addEventListener('DOMContentLoaded', function(event) {
      });
    }, {
      threshold: 0.5  
-   });
+  });
    
   progressBars.forEach(bar => observer.observe(bar));
